@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* Reset some default margin and padding */
+/* .selector-for-some-widget {
+    box-sizing: content-box;
+} */
+*{
+    margin: 0px;
+    padding: 0.2px;
+    font-family: comfortaa;
+    
+}
+::-webkit-scrollbar {
+      width: 12px; /* Width of the vertical scrollbar */
+}
+::-webkit-scrollbar-track {
+    background: #ffffff; /* Track color */
+}
+::-webkit-scrollbar-thumb {
+    background: #000000; /* Thumb color */
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #97BC62; /* Thumb color on hover */
+}
+/* Additional styles for content */
+ body {
+    overflow: scroll; /* Show scrollbars */
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    text-align: center;
+    font-weight: 900; 
+}
+span{
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+#nav:hover{
+    color: #000000;
+}
+.details{
+    box-sizing: border-box;
+    max-width: 30rem;
+    text-align: justify;
+}
+.start{
+    padding: 5rem;
+}
+.start img{
+    border-radius: 20rem;
+}
+.p1{
+    width: 50rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.resume{
+    margin: 0;
+    text-align: center;
+}
+.container{
+    margin: 0;
+    text-align: center;
+}
+.short-thick-line {
+    height: 4px;
+    width: 30px; /* Adjust the width as needed */
+    background-color: #000000; /* Choose your preferred color */
+    margin: 0 auto;
+}
+.fade-in{
+    background-color: #2C5F2D;
+    color: #97BC62; 
+}
+.fade-iin {
+    
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    display: none;
+  }
+  
+  .scroll-to-top a {
+    background: #000000;
+    color: #97BC62;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top a:hover {
+    background: #97BC62;
+    color: black;
+  }
+
+  
+#nav{
+  background-color: #2C5F2D;
+}
+    #nav a {
+    float: left;
+    display: block;
+    color: #97BC62;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  #nav a:hover {
+    font-weight: bolder;
+    color: black;
+  }
+  /* Style the button */
+  .my-button {
+    background-color: black;
+    color: #97BC62;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  /* Change button color on hover */
+  .my-button:hover {
+    background-color: #213800;
+    color: #000000;
+  }
+
+
+  
